@@ -89,8 +89,11 @@ Already-current values are rejected as a no-op without opening an edit form.
 
 Requires Node.js 22 or later.
 
+Clone the standalone repository and run all commands from its root:
+
 ```powershell
-Set-Location src\career-portal-mcp
+git clone https://github.com/prithviraj2609/career-portal-mcp-server.git
+Set-Location career-portal-mcp-server
 npm install
 npx playwright install chromium
 npm run build
@@ -100,7 +103,7 @@ node dist\index.js
 Development:
 
 ```powershell
-Set-Location src\career-portal-mcp
+Set-Location C:\path\to\career-portal-mcp-server
 npm install
 npm run dev
 ```
@@ -199,7 +202,7 @@ Generate a key outside the repository, choose a local encrypted-state file, and
 enable providers independently:
 
 ```powershell
-Set-Location src\career-portal-mcp
+Set-Location C:\path\to\career-portal-mcp-server
 npm install
 npx playwright install chromium
 npm run build

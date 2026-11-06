@@ -10,9 +10,11 @@
 
 ## Build and browser installation
 
-Run from `src/career-portal-mcp`:
+Clone the standalone repository, then run from the cloned repository root:
 
 ```shell
+git clone https://github.com/prithviraj2609/career-portal-mcp-server.git
+cd career-portal-mcp-server
 npm install
 npm run build
 npx playwright install chromium

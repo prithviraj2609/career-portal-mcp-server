@@ -1868,7 +1868,9 @@ const employmentInput = z.object({
   });
 
   if (!parsedDates.success) {
-    for (const issue of parsedDates.error.issues) context.addIssue(issue);
+    for (const issue of parsedDates.error.issues) {
+      context.addIssue({ ...issue });
+    }
   }
   if (!value.current && (value.salary !== undefined ||
     value.currency !== undefined || value.skills !== undefined)) {
@@ -1916,7 +1918,9 @@ const projectInput = z.object({
   });
 
   if (!dates.success) {
-    for (const issue of dates.error.issues) context.addIssue(issue);
+    for (const issue of dates.error.issues) {
+      context.addIssue({ ...issue });
+    }
   }
 });
 

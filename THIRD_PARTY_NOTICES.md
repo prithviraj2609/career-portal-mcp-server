@@ -1,6 +1,6 @@
 # Third-party notices
 
-CareerPortalMCP directly depends on:
+Career Portal MCP Server directly depends on:
 
 | Package | License | Purpose |
 |---|---|---|

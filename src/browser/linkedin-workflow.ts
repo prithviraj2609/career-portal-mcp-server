@@ -901,7 +901,9 @@ export class LinkedInBrowserWorkflow extends SelectorWorkflow {
       ? "education.history"
       : "skill.history";
     const profile = await this.readProfile(page, [historyField]);
-    const history = z.array(z.record(z.unknown())).parse(profile[historyField]);
+    const history = z.array(
+      z.record(z.string(), z.unknown()),
+    ).parse(profile[historyField]);
     const id = entityChangeId(change.field);
     const expected = change.operation === "set" &&
         typeof change.value === "object" && change.value !== null

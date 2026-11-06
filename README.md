@@ -1,4 +1,4 @@
-# CareerPortalMCP
+# Career Portal MCP Server
 
 First-party MCP server for bounded public job discovery across LinkedIn and
 Naukri. It provides a provider-neutral model, explicit capability discovery,
@@ -121,7 +121,7 @@ Create the state directory and key as documented in
     "career-portal": {
       "command": "node",
       "args": [
-        "C:\\absolute\\path\\to\\adobe-mcp-servers\\src\\career-portal-mcp\\dist\\secure-launcher.js"
+        "C:\\absolute\\path\\to\\career-portal-mcp-server\\dist\\secure-launcher.js"
       ],
       "env": {
         "CAREER_PORTAL_SESSION_KEY_FILE": "C:\\absolute\\state\\path\\session.key",

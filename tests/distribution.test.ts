@@ -17,7 +17,7 @@ describe("distribution metadata", () => {
       await readFile("package.json", "utf8"),
     ) as PackageMetadata;
     expect(metadata).toMatchObject({
-      name: "@adobe/career-portal-mcp",
+      name: "career-portal-mcp-server",
       license: "MIT",
       engines: { node: ">=22.0.0" },
       bin: {

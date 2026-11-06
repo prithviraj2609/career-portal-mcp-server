@@ -1,5 +1,5 @@
 {
-  "name": "@adobe/career-portal-mcp",
+  "name": "career-portal-mcp-server",
   "version": "0.1.0",
   "description": "First-party MCP server for safe LinkedIn and Naukri job discovery and opt-in account management",
   "type": "module",
@@ -50,12 +50,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Adobe-AIFoundations/adobe-mcp-servers.git",
-    "directory": "src/career-portal-mcp"
+    "url": "git+https://github.com/prithviraj2609/career-portal-mcp-server.git"
   },
-  "homepage": "https://github.com/Adobe-AIFoundations/adobe-mcp-servers/tree/main/src/career-portal-mcp",
+  "homepage": "https://github.com/prithviraj2609/career-portal-mcp-server",
   "bugs": {
-    "url": "https://github.com/Adobe-AIFoundations/adobe-mcp-servers/issues"
+    "url": "https://github.com/prithviraj2609/career-portal-mcp-server/issues"
   },
   "keywords": [
     "mcp",

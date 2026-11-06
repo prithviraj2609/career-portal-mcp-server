@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "career-portal": {
+      "command": "node",
+      "args": [
+        "<ABSOLUTE_PACKAGE_PATH>/dist/secure-launcher.js"
+      ],
+      "env": {
+        "CAREER_PORTAL_SESSION_KEY_FILE": "<ABSOLUTE_STATE_PATH>/session.key",
+        "CAREER_PORTAL_SESSION_FILE": "<ABSOLUTE_STATE_PATH>/sessions.enc",
+        "CAREER_PORTAL_RESUME_DIRECTORY": "<ABSOLUTE_RESUME_DIRECTORY>",
+        "CAREER_PORTAL_LINKEDIN_BROWSER_ENABLED": "true",
+        "CAREER_PORTAL_NAUKRI_BROWSER_ENABLED": "true",
+        "CAREER_PORTAL_MUTATIONS_ENABLED": "false",
+        "CAREER_PORTAL_REQUEST_TIMEOUT_MS": "10000",
+        "CAREER_PORTAL_READS_PER_MINUTE": "15",
+        "CAREER_PORTAL_MAX_RESULTS": "25",
+        "CAREER_PORTAL_MUTATION_CONFIRMATION_TTL_MS": "300000",
+        "CAREER_PORTAL_USER_AGENT": "CareerPortalMCP/0.1 <SUPPORT_CONTACT>"
+      },
+      "tools": [
+        "*"
+      ]
+    }
+  }
+}
